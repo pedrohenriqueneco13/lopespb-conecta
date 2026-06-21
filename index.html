@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Site institucional da Distribuidora Lopes, projeto acadêmico front-end com foco em divulgação, catálogo, promoções e contato pelo Instagram.">
+  <title>Distribuidora Lopes | Bebidas & Delivery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <nav class="navbar-principal" aria-label="Navegação principal">
+      <a class="nav-logo" href="#inicio" aria-label="Página inicial da Distribuidora Lopes">LOPES<span>PB</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#promocoes">Promoções</a></li>
+        <li><a href="#diferenciais">Por que nós</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <a class="nav-cta" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji" target="_blank"
+        rel="noopener noreferrer" aria-label="Acessar o Instagram da Distribuidora Lopes">
+        📸 Ver Instagram
+      </a>
+
+      <button class="nav-hamburger" id="hamburger" type="button" aria-label="Abrir menu de navegação"
+        aria-controls="navLinks" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <header class="hero-content container">
+        <p class="hero-badge">🍺 Distribuidora de Bebidas — Goiás</p>
+        <h1 id="titulo-hero">SUA <em>FESTA</em><br>COMEÇA AQUI</h1>
+        <p class="hero-text">Cervejas, destilados, refrigerantes e muito mais. Uma página simples para divulgar
+          produtos, promoções e facilitar o contato pelo Instagram oficial.</p>
+
+        <p class="hero-buttons">
+          <a class="btn-primary-custom" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji"
+            target="_blank" rel="noopener noreferrer" aria-label="Chamar a Distribuidora Lopes pelo Instagram">
+            📸 Falar pelo Instagram
+          </a>
+          <a class="btn-secondary-custom" href="#produtos">Ver catálogo →</a>
+        </p>
+
+        <ul class="hero-stats" aria-label="Informações de destaque da distribuidora">
+          <li>
+            <strong>500+</strong>
+            <span>Produtos</span>
+          </li>
+          <li>
+            <strong>Delivery</strong>
+            <span>Atendimento local</span>
+          </li>
+          <li>
+            <strong>100%</strong>
+            <span>Gelado</span>
+          </li>
+          <li>
+            <strong>Insta</strong>
+            <span>@distribuidora_lopespb</span>
+          </li>
+        </ul>
+      </header>
+    </section>
+
+    <section id="produtos" aria-labelledby="titulo-produtos">
+      <div class="container">
+        <header class="section-header produtos-header">
+          <section class="section-heading" aria-label="Introdução do catálogo">
+            <p class="section-label">Catálogo</p>
+            <h2 class="section-title" id="titulo-produtos">NOSSAS BEBIDAS</h2>
+            <p class="section-sub">De cerveja gelada a destilados premium — opções para festas, eventos e compras do dia
+              a dia.</p>
+          </section>
+
+          <a class="btn-secondary-custom" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Ver catálogo e novidades no Instagram da Distribuidora Lopes">
+            Catálogo no Instagram →
+          </a>
+        </header>
+
+        <section class="grid-produtos" aria-label="Categorias de bebidas disponíveis">
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">🍺</p>
+            <h3>Cervejas</h3>
+            <p>Skol, Brahma, Heineken, Stella, Corona e outras opções nacionais e importadas.</p>
+            <span class="card-tag">Mais vendida</span>
+          </article>
+
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">🥃</p>
+            <h3>Destilados</h3>
+            <p>Whisky, vodka, gin, cachaça, rum e licores para diferentes tipos de evento.</p>
+            <span class="card-tag">Premium</span>
+          </article>
+
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">🍾</p>
+            <h3>Espumantes & Vinhos</h3>
+            <p>Bebidas indicadas para celebrações, jantares, encontros especiais e confraternizações.</p>
+            <span class="card-tag">Especial</span>
+          </article>
+
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">🥤</p>
+            <h3>Refrigerantes</h3>
+            <p>Coca-Cola, Guaraná, Pepsi, Fanta e versões em diferentes tamanhos para toda a família.</p>
+            <span class="card-tag">Família</span>
+          </article>
+
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">⚡</p>
+            <h3>Energéticos</h3>
+            <p>Red Bull, Monster, TNT e outras opções para complementar drinks e animar festas.</p>
+            <span class="card-tag">Festas</span>
+          </article>
+
+          <article class="card-produto">
+            <p class="card-icon" aria-hidden="true">💧</p>
+            <h3>Água & Sucos</h3>
+            <p>Água com gás, água sem gás, sucos e bebidas não alcoólicas para todos os públicos.</p>
+            <span class="card-tag">Natural</span>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section id="promocoes" aria-labelledby="titulo-promocoes">
+      <div class="container">
+        <header class="section-header section-header-centro">
+          <p class="section-label">Ofertas</p>
+          <h2 class="section-title" id="titulo-promocoes">PROMOÇÕES ESPECIAIS</h2>
+          <p class="section-sub">Combos pensados para festas, eventos e compras em maior quantidade. As novidades e
+            condições podem ser acompanhadas pelo Instagram oficial.</p>
+        </header>
+
+        <section class="promo-grid" aria-label="Combos promocionais da distribuidora">
+          <article class="promo-card">
+            <strong class="promo-destaque">🔥 Top</strong>
+            <p class="promo-icon" aria-hidden="true">🎉</p>
+            <h3>Combo Festa</h3>
+            <p class="promo-desc">Kit completo para animar eventos, aniversários e confraternizações.</p>
+            <ul class="promo-itens">
+              <li>Fardo de cerveja com 24 latas</li>
+              <li>4 refrigerantes de 2 litros</li>
+              <li>2 pacotes de gelo</li>
+              <li>Condição especial para eventos locais</li>
+            </ul>
+          </article>
+
+          <article class="promo-card">
+            <strong class="promo-destaque">⭐ Premium</strong>
+            <p class="promo-icon" aria-hidden="true">🥃</p>
+            <h3>Combo Premium</h3>
+            <p class="promo-desc">Opção para quem procura bebidas selecionadas para ocasiões especiais.</p>
+            <ul class="promo-itens">
+              <li>1 whisky de 1 litro à escolha</li>
+              <li>1 vodka de 1 litro à escolha</li>
+              <li>6 energéticos</li>
+              <li>Misturadores inclusos</li>
+            </ul>
+          </article>
+
+          <article class="promo-card">
+            <strong class="promo-destaque">📦 Volume</strong>
+            <p class="promo-icon" aria-hidden="true">🚀</p>
+            <h3>Atacado</h3>
+            <p class="promo-desc">Alternativa para compras em volume, festas maiores e pequenos eventos.</p>
+            <ul class="promo-itens">
+              <li>A partir de 5 fardos</li>
+              <li>Preços de distribuidor</li>
+              <li>Opções para retirada ou entrega local</li>
+              <li>Consultar condições atualizadas no Instagram</li>
+            </ul>
+          </article>
+        </section>
+
+        <p class="promo-btn-wrapper">
+          <a class="btn-primary-custom" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Procurar promoções no Instagram da Distribuidora Lopes">
+            Procurar promoções no Instagram 📸
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="diferenciais" aria-labelledby="titulo-diferenciais">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Por que nós</p>
+          <h2 class="section-title" id="titulo-diferenciais">POR QUE ESCOLHER<br>A LOPES</h2>
+        </header>
+
+        <section class="dif-grid" aria-label="Diferenciais da distribuidora">
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">🚀</p>
+            <h3>Entrega local</h3>
+            <p>Atendimento voltado para a região, facilitando pedidos para festas e compras rápidas.</p>
+          </article>
+
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">💰</p>
+            <h3>Preço competitivo</h3>
+            <p>Proposta de distribuidora com opções para varejo, eventos e compras em quantidade.</p>
+          </article>
+
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">🧊</p>
+            <h3>Bebida gelada</h3>
+            <p>Bebidas organizadas para chegar prontas para o consumo em festas e encontros.</p>
+          </article>
+
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">📦</p>
+            <h3>Grande variedade</h3>
+            <p>Categorias variadas, incluindo cervejas, destilados, refrigerantes, energéticos, águas e sucos.</p>
+          </article>
+
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">📸</p>
+            <h3>Contato pelo Instagram</h3>
+            <p>O perfil @distribuidora_lopespb centraliza novidades, promoções, publicações e contato.</p>
+          </article>
+
+          <article class="dif-card">
+            <p class="dif-icon" aria-hidden="true">🎯</p>
+            <h3>Presença local</h3>
+            <p>Projeto pensado para divulgar a Distribuidora Lopes em Padre Bernardo — GO e região.</p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section id="instagram" aria-labelledby="titulo-instagram">
+      <div class="container">
+        <header class="section-header section-header-centro">
+          <p class="section-label">Redes sociais</p>
+          <h2 class="section-title" id="titulo-instagram">SIGA A GENTE</h2>
+          <p class="section-sub">Acompanhe novidades, promoções e informações pelo Instagram oficial da Distribuidora
+            Lopes.</p>
+        </header>
+
+        <p class="insta-cta-wrapper">
+          <a class="insta-cta" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji"
+            target="_blank" rel="noopener noreferrer" aria-label="Abrir o perfil @distribuidora_lopespb no Instagram">
+            <img src="img/instagram-icon.svg" alt="" aria-hidden="true">
+            @distribuidora_lopespb
+          </a>
+        </p>
+
+        <ul class="insta-grid" aria-label="Conteúdos destacados do Instagram da Distribuidora Lopes">
+          <li>
+            <figure>
+              <img src="img/post-cervejas.svg"
+                alt="Card visual representando cervejas geladas divulgadas no Instagram da Distribuidora Lopes">
+              <figcaption>Cervejas</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/post-promocoes.svg"
+                alt="Card visual representando promoções divulgadas no Instagram da Distribuidora Lopes">
+              <figcaption>Promoções</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/post-destilados.svg"
+                alt="Card visual representando destilados divulgados no Instagram da Distribuidora Lopes">
+              <figcaption>Destilados</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/post-vinhos.svg" alt="Card visual representando vinhos e espumantes da Distribuidora Lopes">
+              <figcaption>Vinhos</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/post-energeticos.svg"
+                alt="Card visual representando energéticos disponíveis na Distribuidora Lopes">
+              <figcaption>Energéticos</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/post-eventos.svg"
+                alt="Card visual representando bebidas para festas e eventos da Distribuidora Lopes">
+              <figcaption>Eventos</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="titulo-contato">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Fale conosco</p>
+          <h2 class="section-title" id="titulo-contato">ENTRE EM CONTATO</h2>
+          <p class="section-sub">Use o formulário para organizar sua mensagem. Depois, abra o Instagram oficial para
+            enviar ou consultar as informações mais recentes.</p>
+        </header>
+
+        <section class="contato-grid" aria-label="Informações e formulário de contato">
+          <address class="contato-info">
+            <p class="contato-intro">A Distribuidora Lopes atende quem procura bebidas para festas, eventos e consumo
+              local. O contato principal do projeto é o Instagram oficial.</p>
+
+            <ul class="contato-lista">
+              <li>
+                <span class="contato-icone" aria-hidden="true">📸</span>
+                <article>
+                  <h3>Instagram</h3>
+                  <a href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji" target="_blank"
+                    rel="noopener noreferrer">@distribuidora_lopespb</a>
+                </article>
+              </li>
+              <li>
+                <span class="contato-icone" aria-hidden="true">📍</span>
+                <article>
+                  <h3>Localização</h3>
+                  <p>Padre Bernardo — GO<br>Consulte área de entrega pelo Instagram</p>
+                </article>
+              </li>
+              <li>
+                <span class="contato-icone" aria-hidden="true">⏰</span>
+                <article>
+                  <h3>Horário</h3>
+                  <p>Verifique horários, promoções e disponibilidade no perfil oficial.</p>
+                </article>
+              </li>
+            </ul>
+          </address>
+
+          <form class="contato-form" id="formContato" aria-label="Formulário de simulação de contato pelo Instagram">
+            <h3>📸 Organizar mensagem</h3>
+
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?" required>
+
+            <label for="categoria">Categoria de interesse</label>
+            <select id="categoria" name="categoria">
+              <option value="">Selecione uma categoria</option>
+              <option value="Cervejas">🍺 Cervejas</option>
+              <option value="Destilados">🥃 Destilados</option>
+              <option value="Refrigerantes">🥤 Refrigerantes</option>
+              <option value="Espumantes e Vinhos">🍾 Espumantes e Vinhos</option>
+              <option value="Energéticos">⚡ Energéticos</option>
+              <option value="Combo Festa">🎉 Combo Festa</option>
+              <option value="Combo Premium">⭐ Combo Premium</option>
+              <option value="Atacado">📦 Atacado</option>
+            </select>
+
+            <label for="mensagem">Mensagem ou pedido</label>
+            <textarea id="mensagem" name="mensagem"
+              placeholder="Descreva o que você precisa, quantidade, data do evento ou dúvida."></textarea>
+
+            <button class="btn-instagram-form" type="submit">Abrir Instagram oficial</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-brand" aria-labelledby="titulo-footer">
+        <h2 id="titulo-footer" class="footer-logo">LOPES <span>DISTRIBUIDORA</span></h2>
+        <p>Projeto acadêmico de Desenvolvimento Front-end — Universidade Católica de Brasília (UCB).</p>
+      </section>
+
+      <section class="footer-authors" aria-labelledby="titulo-integrantes">
+        <h3 id="titulo-integrantes">Integrantes</h3>
+        <ul>
+          <li>Pedro Henrique Gonçalves de Souza</li>
+          <li>JOEL GONCALVES DOS REIS FILHO</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <p class="footer-copy">© 2026 Distribuidora Lopes — Padre Bernardo, GO. Site desenvolvido para fins acadêmicos.</p>
+  </footer>
+
+  <a class="insta-float" href="https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji" target="_blank"
+    rel="noopener noreferrer" aria-label="Abrir Instagram da Distribuidora Lopes">
+    <img src="img/instagram-icon.svg" alt="" aria-hidden="true">
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
