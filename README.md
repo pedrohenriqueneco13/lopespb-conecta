@@ -88,7 +88,7 @@ https://www.instagram.com/distribuidora_lopespb?igsh=MXNkd29lMTN1Z3Ji
 ## Link do repositório
 
 ```text
-https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO
+https://github.com/pedrohenriqueneco13/lopespb-conecta
 ```
 
 ## Link da página publicada
